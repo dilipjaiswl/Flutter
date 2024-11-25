@@ -14,6 +14,7 @@ class RowColumnWidgets extends StatelessWidget {
       ),
       body:const Column(
         mainAxisAlignment: MainAxisAlignment.start,
+       //  mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Row(
