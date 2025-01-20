@@ -7,10 +7,13 @@ class InkwellWidgets extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Ink well  Widgets",
-          style: TextStyle(color: Colors.red, backgroundColor: Colors.grey),
+        title: Center(
+          child: const Text(
+            "Ink well  Widgets",
+            style: TextStyle(color: Colors.red),
+          ),
         ),
+        backgroundColor: Colors.blue,
       ),
       body:Center(
         child: InkWell(
